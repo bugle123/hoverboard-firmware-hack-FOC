@@ -686,7 +686,7 @@
 #endif
 
 
-// General checks
+// General che=cks
 #if defined(CONTROL_SERIAL_USART2) && defined(SIDEBOARD_SERIAL_USART2)
   #error CONTROL_SERIAL_USART2 and SIDEBOARD_SERIAL_USART2 not allowed, choose one.
 #endif
